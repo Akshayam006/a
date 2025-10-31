@@ -1,0 +1,231 @@
+ChatGPT
+
+You said:
+
+ChatGPT said:
+
+Got it 👍 — this is a TCS AI Fridays – AI for SDLC exercise document.
+
+Here’s a summary of what it’s asking you to do:
+
+🧩 Use Story: Smart Retail Operations Platform
+
+Goal:
+Develop a simple AI-based inventory classification tool using ABC analysis.
+
+🎯 Objective
+
+Build a basic software module that helps retail teams classify inventory items (A, B, C) based on their value and quantity, so they can manage stock effectively.
+
+🧠 ABC Classification Logic
+
+• A items: High value, low quantity → need tight control (e.g., premium electronics).
+
+• B items: Moderate value & quantity → need regular monitoring.
+
+• C items: Low value, high quantity → minimal oversight (e.g., accessories).
+
+⚙️ Key Features
+
+• Rule Engine: Define rules for A/B/C categorization (e.g., value thresholds).
+
+• Manual Data Entry: Input item name, quantity, and unit cost.
+
+• Automatic Classification: System auto-assigns category (A/B/C).
+
+• Item Threshold: Define reorder and max inventory limits per category.
+
+• Dashboard: Display categorized items with filters and totals.
+
+• Export Option: Download categorized data as CSV/PDF.
+
+💡 Benefits
+
+• Prioritize inventory control easily.
+
+• Reduce overstock of low-value items.
+
+• Improve focus on high-impact (A) items.
+
+If you’d like, I can help you design a working AI prototype for this — e.g. using Python (Streamlit + Pandas) or a low-code AI tool (like Gemini or ChatGPT API).
+
+Would you like me to create:
+
+• 💻 a Python Streamlit prototype (with data upload, ABC classification & dashboard), or
+
+• 🧠 a flow diagram + AI design explaining the logic for presentation?
+
+You said:
+
+A flow diagram 
+
+ChatGPT said:
+
+Perfect 👍 — here’s a clear flow diagram for your TCS AI Fridays use case:
+“Smart Retail Operations Platform – ABC Inventory Classification using AI”
+
+🧭 Flow Diagram (Text Representation)
+
+┌──────────────────────────────┐ │ Start │ └──────────────┬───────────────┘ │ ▼ ┌────────────────────────────────────┐ │ User Inputs Item Data │ │ (Item Name, Quantity, Unit Cost) │ └────────────────────────────────────┘ │ ▼ ┌────────────────────────────────────┐ │ Calculate Total Value per Item │ │ → Total Value = Quantity × Cost │ └────────────────────────────────────┘ │ ▼ ┌────────────────────────────────────┐ │ Apply Rule Engine / AI Model │ │ • Determine thresholds for A/B/C │ │ • Use rules or ML-based classifier │ └────────────────────────────────────┘ │ ▼ ┌────────────────────────────────────┐ │ Automatic Classification │ │ → Assign item as A / B / C │ └────────────────────────────────────┘ │ ▼ ┌────────────────────────────────────┐ │ Check Inventory Thresholds │ │ • Min / Max reorder levels │ └────────────────────────────────────┘ │ ▼ ┌────────────────────────────────────┐ │ Update Dashboard │ │ • Show categorized list │ │ • Summary totals & filters │ └────────────────────────────────────┘ │ ▼ ┌────────────────────────────────────┐ │ Export Option │ │ • Download CSV / PDF report │ └────────────────────────────────────┘ │ ▼ ┌──────────────────────────────┐ │ End │ └──────────────────────────────┘ 
+
+⚙️ Optional AI Integration Ideas
+
+You can mention these in your explanation:
+
+• AI rule optimization: Use machine learning to dynamically adjust A/B/C thresholds based on historical sales data.
+
+• Predictive reorder suggestion: Use regression or time-series models to forecast stockouts.
+
+• Natural language interface: Allow user to query inventory via chat (e.g., “Show all A items below reorder level”).
+
+Would you like me to create a visual version (diagram image) of this flow for presentation or submission?
+
+You said:
+
+ChatGPT said:
+
+Thanks — this second page provides the instructions and deliverables for your TCS AI Fridays task.
+Here’s a clear summary of what it says (so you can combine it with the first page for your submission):
+
+🧠 TCS AI Fridays – AI for SDLC
+
+Instructions
+
+Use AI Tools or Build Your Own AI Agents (BYOAA) to develop the software and deliverables.
+
+Your team must:
+
+• Use AI tools (like ChatGPT, Gemini, Copilot, or other AI coding assistants)
+
+• Or build your own simple AI agent to automate parts of the development lifecycle (like rule engine, UI design, test cases, or documentation).
+
+Deliverables
+
+You are expected to produce the following:
+
+• User Persona
+
+• User Story
+
+• Functional Flow (→ the flow diagram we discussed fits here ✅)
+
+• UX/UI Design
+
+• Data Design / Data Models
+
+• Implementation Document
+
+• Working Software
+
+• Production-Level Quality Code
+
+• Test Design
+
+• Production Test Scripts
+
+Evaluation Criteria
+
+AreaFocusSelection of ToolsUse AI tools best suited for your scenarioQuality StandardsApply consistent coding patterns, high-quality design, code reviewsIntegrationIntegrate with other systems or databasesTestingInclude test cases and functional validationDocumentationProvide detailed documentation of design, models, and dataUser ExperienceSimple, intuitive interface with smooth navigation
+
+Tips for a Good Submission
+
+✅ Keep UI simple and responsive
+✅ Focus on working prototype, not just concept
+✅ Document rule engine, logic, and AI model clearly
+✅ Provide screenshots or live demo link if possible
+✅ Export dashboard as CSV/PDF as mentioned in use case
+
+you uploaded:
+
+Image 1: (First page – “TCS AI Fridays - AI for SDLC”)
+
+TCS AI Fridays – AI for SDLC
+
+DURATION: 4 HOURS
+
+DEVELOP SOFTWARE USING ARTIFICIAL INTELLIGENCE (AI) TOOLS/AI AGENTS FOR THE FOLLOWING USE STORY
+
+User Story
+
+Smart Retail Operations Platform
+
+As a warehouse supervisor at a retail company, I want a simple inventory classification tool that helps me categorize items into A, B, and C groups based on their value contribution, so that I can prioritize stock management and focus on high-value items without needing advanced analytics.
+
+Objective
+
+To develop a basic software module that enables retail inventory teams to classify products using ABC analysis and manage them accordingly.
+
+ABC Classification Logic
+
+• A items: High-value, low-quantity items (e.g., premium electronics) – require tight control and frequent review.
+
+• B items: Moderate value and quantity – managed with regular monitoring.
+
+• C items: Low-value, high-quantity items (e.g., accessories) – managed with minimal oversight.
+
+Key Features
+
+• Rule Engine: To set rules to classify the items into A/B/C category
+
+• Manual Data Entry: Users can input item name, quantity, and unit cost
+
+• Automatic Classification: System assigns A/B/C category for the items
+
+• Item Threshold: The parameter screen allows entry of the minimum inventory level for initiating reorders and the maximum inventory level at which no further ordering will be made for each category
+
+• Dashboard: Displays categorized items with filters and summary totals
+
+• Export Option: Download categorized inventory as CSV or PDF for offline use
+
+Benefits
+
+• Helps prioritize inventory control without complex systems.
+
+• Reduces overstocking of low-value items.
+
+• Improves focus on high-impact inventory.
+
+TCS Internal
+31 October 2025
+
+Image 2: (Second page – “Use AI Tools or Build Your Own AI Agents”)
+
+Instructions
+Use AI tools or build your own AI Agents (BYOAA) to develop the software and deliverables.
+
+Deliverables are expected to be of production-level quality, ensuring excellence in both content and look & feel.
+
+Deliverables
+
+• Problem statement
+
+• User persona
+
+• UX/UI design
+
+• Functional design / Data models
+
+• Working software
+
+• Production test scripts
+
+Detailed Deliverables
+
+• Selection of Tools: Creatively evaluate and select the most suitable AI tools for building the software prototype or building your own AI agents. Ensure they enhance team productivity. Additional weightage will be given if a team builds its own AI agents.
+
+• Quality Standards: Apply consistent design patterns, code reviews, and maintain high quality.
+
+• Integration: Ensure seamless integration and composition with the overall application.
+
+• Testing: Prepare comprehensive test cases, including both functional and non-functional scenarios.
+
+• Documentation: Maintain clear and detailed documentation for all deliverables, including diagrams, data models, and user manuals. Update documents regularly as changes are made.
+
+• User Experience: Prioritize a user-centric approach in UI/UX design. Avoid using flashy visuals; focus on simplicity, clarity, and user interface streamlining for a smooth user experience.
+
+TCS Internal
+31 October 2025
+
+Would you like me to convert this into a formatted summary or Word/PDF document for submission?
+
+ChatGPT can make mistakes. Check important info. See Cookie
